@@ -15,7 +15,8 @@ Project consists of creating a virtual network in VMWare Workstation that consis
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (22H2)
+- <b>Windows Server 2022</b> (21H2)
+- <b>Windows 10 Pro</b> (22H2)
 
 <h2>Active Directory walk-through:</h2>
 
