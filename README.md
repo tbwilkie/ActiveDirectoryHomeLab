@@ -1,6 +1,6 @@
 <h1>Active Directory Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+ ### [YouTube Demonstration](https://youtu.be/yPUKnArW0NQ)
 
 <h2>Description</h2>
 Project consists of creating a virtual network in VMWare Workstation that consists of an Active Directory Domain Server with DHCP and remote access for domain connected devices, and a Windows 10 virtual machine. Utilizing PowerShell and a script, I add bulk user to the active directory with ease, then demonstrate how a user account can then access a domina connect device, in this case our Windows 10 virtual machine.
@@ -9,7 +9,7 @@ Project consists of creating a virtual network in VMWare Workstation that consis
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Active Directory>/b>
+- <b>Active Directory</b>
 - <b>PowerShell</b> 
 
 
