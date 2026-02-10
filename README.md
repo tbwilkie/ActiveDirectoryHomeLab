@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](https://youtu.be/yPUKnArW0NQ)
 
 <h2>Description</h2>
-Project consists of creating a virtual network in VMWare Workstation that consists of an Active Directory Domain Server with DHCP and remote access for domain connected devices, and a Windows 10 virtual machine. Utilizing PowerShell and a script, I add bulk user to the active directory with ease, then demonstrate how a user account can then access a domina connect device, in this case our Windows 10 virtual machine.
+Project consists of creating a virtual network in VMWare Workstation that consists of an Active Directory Domain Server with DHCP and remote access for domain connected devices, and a Windows 10 virtual machine. Utilizing PowerShell and a script, I add new users in bulk to active directory with ease. Then I demonstrate how a new user with their account credentials can then access a domian connected device, in this case our Windows 10 virtual machine.
 <br />
 
 
@@ -21,21 +21,33 @@ Project consists of creating a virtual network in VMWare Workstation that consis
 <h2>Active Directory walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Diagram providing high-level overview of the virtual network: <br/>
+<img src="https://i.imgur.com/1bCn34E.png" height="80%" width="80%" alt="Diagram"/>
+<br/>
+<br/>
+Creating Virtual Machines (Domain Controller and Client): <br/>
+<img src="https://i.imgur.com/9meuBoG.png" height="40%" width="40%" alt="Domain Controller"/>  <img src="https://i.imgur.com/kViNEdU.png" height="42%" width="42%" alt="Client"/>
+<br />
+<br/>
+Adding server roles (Active Directory Domain Services, DHCP Server, DNS Server, Remote Access): <br/>
+<img src="https://i.imgur.com/uqRqOXD.png" height="80%" width="80%" alt="Server Roles and Features"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configuring DC Network Interface Cards (NICs):  <br/>
+<img src="https://i.imgur.com/1bCEDn6.png" height="40%" width="40%" alt="Internal NIC"/>  <img src="https://i.imgur.com/VEoyWe2.png" height="40.5%" width="40.5%" alt="External NIC"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+DHCP Scope to create pool of IP addresses for devices connecting to the domain: <br/>
+<img src="https://i.imgur.com/m0vtwpS.png" height="80%" width="80%" alt="DHCP Scope"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+DNS Server:  <br/>
+<img src="https://i.imgur.com/fhKyfn5.png" height="80%" width="80%" alt="DNS Server"/>
 <br />
+
+
+
+
 <br />
 Wait for process to complete (may take some time):  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
