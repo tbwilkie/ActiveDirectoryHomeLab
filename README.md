@@ -3,7 +3,7 @@
  ### [YouTube Demonstration](https://youtu.be/yPUKnArW0NQ)
 
 <h2>Description</h2>
-Project consists of creating a virtual network in VMWare Workstation that consists of an Active Directory Domain Server with DHCP and remote access for domain connected devices, and a Windows 10 virtual machine. Utilizing PowerShell and a script, I add new users in bulk to active directory with ease. Then I demonstrate how a new user with their account credentials can then access a domian connected device, in this case our Windows 10 virtual machine.
+This project involves creating a virtual network in VMware Workstation that includes an Active Directory Domain Controller configured with DHCP and remote access, along with a Windows 10 virtual machine. Using PowerShell scripts, I automate the bulk creation of user accounts in Active Directory. I then demonstrate how a newly created user can successfully authenticate and log in to a domain-joined device (specifically, the Windows 10 virtual machine) using their assigned credentials.
 <br />
 
 
@@ -44,21 +44,17 @@ DHCP Scope to create pool of IP addresses for devices connecting to the domain: 
 DNS Server:  <br/>
 <img src="https://i.imgur.com/fhKyfn5.png" height="80%" width="80%" alt="DNS Server"/>
 <br />
-
-
-
-
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Windows !0 VM added to the domain:  <br/>
+<img src="https://i.imgur.com/EMJxRWk.png" height="80%" width="80%" alt="Windows10"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Active Directory Users and Computers:  <br/>
+<img src="https://i.imgur.com/MxM6A3f.png" height="40%" width="40%" alt="AD Users"/>  <img src="https://i.imgur.com/IHMvjSo.png" height="50%" width="50%" alt="AD Computers"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Observe User conduct a Domain Log on:  <br/>
+<img src="https://i.imgur.com/IJ0NPj1.png" height="80%" width="80%" alt="Domain Login"/>
 </p>
 
 <!--
